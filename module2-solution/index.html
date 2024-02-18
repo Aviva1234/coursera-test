@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1">
+</head>
+<title>Module 2 Solution</title>
+<style>
+  p {
+    border: 1px dashed black;
+    background-color: #ffb3c6;
+    width: 90%;
+    height: 175px;
+  }
+  @media (min-width: 992px) {
+    .col-lg-4{
+      float: left;}
+  .col-lg-4 {
+    width: 33%;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+      float: left;}
+  .col-md-6 {
+    width: 50%;
+    }
+      @media (max-width: 767px) {
+    .col-sm-12{
+      float: left;}
+  .col-sm-12 {
+    width: 100%;
+    }
+</style>
+<body>
+  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 1</p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 2</p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 3</p></div>
+</body>
